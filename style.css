@@ -1,0 +1,72 @@
+h1 {
+    color:blue;
+    margin-left: 55px;
+    font-style: oblique;
+    
+}
+ 
+
+.header {
+    background-color: lightgreen;
+    display:flex;
+    justify-content: space-between;
+}
+
+.menu {
+    margin-right: 55px;
+
+}
+.menu a{
+    margin-left: 25px;
+}
+
+.grid {
+    background-color: lightcoral;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.footer {
+    
+    display:flex;
+    justify-content: flex-end;
+}
+
+.discription {
+    margin-left: 55px;
+    font-style: italic;
+    
+}
+
+
+body{
+    background-color:#7A9DF2;
+}
+
+a:link {
+    color:navy;
+}
+a:visited {
+    color:red;
+}
+
+.item {
+    position:relative;
+}
+.item p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+
+.item:hover p{
+    opacity:1;
+}
+
+.item:hover img{
+    opacity:0.33;
+}
